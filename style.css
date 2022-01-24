@@ -3,6 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.choose-bginfo{
-    background-color: #F496D1 ;
+.carousel-inner img{
+    height: 500px;
+    width: 100%;
 }
