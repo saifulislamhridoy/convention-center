@@ -101,22 +101,14 @@
                      <div>
                         <!-- toast  -->
 
-           <div
-             class="toast show align-items-center"
-             role="alert"
-             aria-live="assertive"
-             aria-atomic="true"
-           >
-             <div class="d-flex">
-               <div class="toast-body">Hello, world! This is a toast message.</div>
-               <button
-                 type="button"
-                 class="btn-close me-2 m-auto"
-                 data-bs-dismiss="toast"
-                 aria-label="Close"
-               ></button>
-             </div>
-           </div>
+                        <div class="container">
+                          <div class="toast show align-items-center" role="alert" aria-live="assertive"aria-atomic="true">
+                              <div class="d-flex">
+                              <div class="toast-body fw-bold"> <i class="fas fa-gift fs-4"></i> Get 25% Off On Next Booking</div>
+                              <butto type="button"class="btn-close  m-auto"data-bs-dismiss="toast"aria-label="Close"></button>
+                              </div>
+                          </div>
+                         </div>
            <!-- end  -->
                         <h1>Greetings & Welcome</h1>
                         <h5 class="d-inline">Tinley Park Convention Center(TPCC)</h5>
@@ -177,7 +169,7 @@
            </div>
            <div class="col-lg-3">
             <div class="card border-0 bg-primary text-white rounded-3 shadow-lg" style="width: 18rem;">
-              <div class="card-body">
+              <div class="card-body position-relative">
                 <h4>$800</h4>
                 <h4 class="card-title">Wedding plus</h4>
                 <p>For most weddings with premium plans</p>
@@ -193,6 +185,10 @@
              </div> 
               
               </div>
+              <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
+                Hot
+                <span class="visually-hidden">unread messages</span>
+              </span>
             </div>
            </div>
            <div class="col-lg-3">
@@ -272,7 +268,7 @@
         <section class="container my-5">
          <h2 class="text-center mb-5 ">Frequently Asked Questions</h2>
          <div class="row">
-           <div class="col-lg-6 mt-4 ">
+           <div class="col-lg-6 mt-4 order-sm-1">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -316,7 +312,7 @@
               </div>
             </div>
            </div>
-           <div class="col-lg-6 d-flex align-items-center justify-content-center">
+           <div class="col-lg-6 d-flex align-items-center justify-content-center order-sm-2">
              <img class="img-fluid" src="./images/people.png" alt="">
            </div>
          </div>
